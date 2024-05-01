@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPin.CLI", "TripPin.CLI\TripPin.CLI.csproj", "{50394C7A-682D-4A01-9F86-EE9AF29CBD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPin", "TripPin\TripPin.csproj", "{B6BD6566-9DE5-4F2B-808F-F79B53034A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPin.Model", "TripPin.Model\TripPin.Model.csproj", "{4F56AABE-F4D2-460D-A974-312D9981ADD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripPin.Tests", "TripPin.Tests\TripPin.Tests.csproj", "{535EC868-A554-47E3-BF46-E2035BDE5602}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50394C7A-682D-4A01-9F86-EE9AF29CBD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50394C7A-682D-4A01-9F86-EE9AF29CBD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50394C7A-682D-4A01-9F86-EE9AF29CBD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50394C7A-682D-4A01-9F86-EE9AF29CBD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6BD6566-9DE5-4F2B-808F-F79B53034A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6BD6566-9DE5-4F2B-808F-F79B53034A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6BD6566-9DE5-4F2B-808F-F79B53034A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6BD6566-9DE5-4F2B-808F-F79B53034A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F56AABE-F4D2-460D-A974-312D9981ADD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F56AABE-F4D2-460D-A974-312D9981ADD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F56AABE-F4D2-460D-A974-312D9981ADD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F56AABE-F4D2-460D-A974-312D9981ADD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535EC868-A554-47E3-BF46-E2035BDE5602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535EC868-A554-47E3-BF46-E2035BDE5602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535EC868-A554-47E3-BF46-E2035BDE5602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535EC868-A554-47E3-BF46-E2035BDE5602}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
