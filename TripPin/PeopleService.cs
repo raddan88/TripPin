@@ -70,7 +70,7 @@ public class PeopleService(IHttpClientFactory httpClientFactory, IConfiguration 
     public async Task<bool> UpdateUserField(string userName, Dictionary<string, string> fieldsToUpdate)
     {
         var key = await GetServerKey();
-        var response = await SendRequest(HttpMethod.Patch, $"{key}/People('{userName}')", fieldsToUpdate);
+        await SendRequest(HttpMethod.Patch, $"{key}/People('{userName}')", fieldsToUpdate);
         
         return true;
     }
@@ -88,7 +88,7 @@ public class PeopleService(IHttpClientFactory httpClientFactory, IConfiguration 
             throw new WebException("Unable to retrieve server key");
         }
         
-        var key = JObject.Parse(responseMessage)?.Value<string>("@odata.context")?
+        var key = JObject.Parse(responseMessage).Value<string>("@odata.context")?
             .Replace(baseUrl, "")
             .Split("/")[0];
         

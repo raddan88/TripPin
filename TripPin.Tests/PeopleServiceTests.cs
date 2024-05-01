@@ -135,7 +135,7 @@ public class PeopleServiceTests
         // Act
         var act = async () =>
         {
-            var result = await peopleService.Search(null);
+            _ = await peopleService.Search(null);
         };
         
         // Assert
@@ -171,7 +171,7 @@ public class PeopleServiceTests
         // Act
         var act = async () =>
         {
-            var result = await peopleService.Search(null);
+            _  = await peopleService.Search(null);
         };
         
         // Assert
@@ -183,5 +183,5 @@ public class PeopleServiceTests
             It.IsAny<Func<It.IsAnyType, Exception, string>>()), Times.Once);
     }
     
-    // TODO test rest of the mehods
+    // TODO test rest of the methods
 }
